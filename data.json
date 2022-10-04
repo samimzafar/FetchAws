@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "artist": "atif",
+        "song": "pehli nazar me",
+        "priceUsdCents": 100,
+        "publisher": "Atif INC"
+    },
+    {
+        "id": "2",
+        "artist": "arijit",
+        "song": "aa rat bhar",
+        "priceUsdCents": 200,
+        "publisher": "Arijit INC"
+    },
+    {
+        "id": "3",
+        "artist": "arijit",
+        "song": "man mast magan",
+        "priceUsdCents": 600,
+        "publisher": "Arijit INC"
+    },
+    {
+        "id": "4",
+        "artist": "sonu",
+        "song": "kol ho na ho",
+        "priceUsdCents": 500,
+        "publisher": "Sonu INC"
+    },
+    {
+        "id": "5",
+        "artist": "sonu",
+        "song": "kani khushi gham",
+        "priceUsdCents": 400,
+        "publisher": "Sonu INC"
+    },
+    {
+        "id": "6",
+        "artist": "atif",
+        "song": "rafta rafta sanam",
+        "priceUsdCents": 1200,
+        "publisher": "Atif INC"
+    }
+]

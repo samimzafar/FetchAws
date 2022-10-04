@@ -1,0 +1,52 @@
+
+  {
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "publisher",
+        "AttributeType": "S"
+      },
+      {
+        "AttributeName": "id",
+        "AttributeType": "S"
+      }
+    ],
+    "GlobalSecondaryIndexUpdates": [
+      {
+        "Create": {
+          "IndexName": "publisherIndex",
+          "KeySchema": [
+            {
+              "AttributeName": "publisher",
+              "KeyType": "HASH"
+            }
+          ],
+          "Projection": {
+            "ProjectionType": "ALL"
+          },
+          "ProvisionedThroughput": {
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+          }
+        }
+      },
+      {
+        "Create": {
+          "IndexName": "idIndex",
+          "KeySchema": [
+            {
+              "AttributeName": "id",
+              "KeyType": "HASH"
+            }
+          ],
+          "Projection": {
+            "ProjectionType": "ALL"
+          },
+          "ProvisionedThroughput": {
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+          }
+        }
+      }
+    ]
+  }
+
